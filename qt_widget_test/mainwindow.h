@@ -16,9 +16,10 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_findButton_clicked();
 
 private:
     Ui::MainWindow *ui;
+    void loadTextFile();
 };
 #endif // MAINWINDOW_H
